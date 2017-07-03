@@ -1,0 +1,20 @@
+plugins {
+    id 'org.spongepowered.plugin' version '0.8.1'
+}
+allprojects{
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+
+group = pluginGroup
+version = pluginVersion
+
+dependencies {
+    compile 'org.spongepowered:spongeapi:6.0.0'
+    compile 'com.github.Jano1:RegionsAPI:master-SNAPSHOT'
+}
+
+sponge.plugin.id = pluginId
+0000
