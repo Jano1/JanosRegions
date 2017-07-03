@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>de.jano1.sponge.janos_regions</OriginalElement>
+  <nodes>
+    <node x="1693.65" y="0.0">de.jano1.sponge.regions_api.subfaces.RegionParentable</node>
+    <node x="1592.65" y="190.0">de.jano1.sponge.regions_api.Region</node>
+    <node x="1262.0" y="589.0">de.jano1.sponge.janos_regions.BasicRegionFlag</node>
+    <node x="0.0" y="601.0">de.jano1.sponge.regions_api.RegionBuilder</node>
+    <node x="1884.15" y="589.0">de.jano1.sponge.janos_regions.BasicRegionService</node>
+    <node x="1920.65" y="223.0">de.jano1.sponge.regions_api.RegionService</node>
+    <node x="1375.5" y="256.5">de.jano1.sponge.regions_api.RegionFlag</node>
+    <node x="481.8083333333334" y="245.5">de.jano1.sponge.regions_api.RegionShape</node>
+    <node x="0.0" y="1230.0">de.jano1.sponge.janos_regions.JanosRegions</node>
+    <node x="228.0" y="1230.0">de.jano1.sponge.janos_regions.BasicRegionIO</node>
+    <node x="290.0000000000001" y="578.5">de.jano1.sponge.janos_regions.BasicRegionShape_Chunks</node>
+    <node x="644.2305555555557" y="978.0">de.jano1.sponge.janos_regions.BasicRegionBuilder_Chunks</node>
+    <node x="1374.25" y="22.0">de.jano1.sponge.regions_api.subfaces.PluginRelatable</node>
+    <node x="630.0000000000001" y="446.0">de.jano1.sponge.janos_regions.BasicRegion</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="de.jano1.sponge.janos_regions.BasicRegionService" target="de.jano1.sponge.regions_api.Region">
+      <point x="-75.5" y="-93.0" />
+      <point x="1959.65" y="426.0" />
+      <point x="1849.3166666666668" y="426.0" />
+      <point x="102.66666666666674" y="103.0" />
+    </edge>
+    <edge source="de.jano1.sponge.janos_regions.BasicRegionFlag" target="de.jano1.sponge.regions_api.RegionFlag">
+      <point x="0.0" y="-93.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="de.jano1.sponge.janos_regions.BasicRegionBuilder_Chunks" target="de.jano1.sponge.regions_api.RegionShape">
+      <point x="-26.0" y="-103.5" />
+      <point x="774.2305555555557" y="938.0" />
+      <point x="619.5000000000001" y="938.0" />
+      <point x="619.5000000000001" y="426.0" />
+      <point x="608.8083333333334" y="426.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="de.jano1.sponge.regions_api.RegionFlag" target="de.jano1.sponge.regions_api.subfaces.PluginRelatable">
+      <point x="0.0" y="-36.5" />
+      <point x="-63.75" y="48.0" />
+    </edge>
+    <edge source="de.jano1.sponge.regions_api.Region" target="de.jano1.sponge.regions_api.subfaces.PluginRelatable">
+      <point x="-77.0" y="-103.0" />
+      <point x="1669.65" y="165.0" />
+      <point x="1565.5" y="165.0" />
+      <point x="63.75" y="48.0" />
+    </edge>
+    <edge source="de.jano1.sponge.janos_regions.BasicRegionBuilder_Chunks" target="de.jano1.sponge.regions_api.RegionBuilder">
+      <point x="-130.0" y="-103.5" />
+      <point x="670.2305555555557" y="958.0" />
+      <point x="135.0" y="958.0" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="de.jano1.sponge.janos_regions.BasicRegion" target="de.jano1.sponge.regions_api.RegionFlag">
+      <point x="-1.1368683772161603E-13" y="-236.0" />
+      <point x="936.0" y="416.0" />
+      <point x="1396.3333333333335" y="416.0" />
+      <point x="-41.66666666666674" y="36.5" />
+    </edge>
+    <edge source="de.jano1.sponge.janos_regions.BasicRegion" target="de.jano1.sponge.regions_api.RegionShape">
+      <point x="-204.0000000000001" y="-236.0" />
+      <point x="732.0" y="426.0" />
+      <point x="693.4750000000001" y="426.0" />
+      <point x="84.66666666666674" y="47.5" />
+    </edge>
+    <edge source="de.jano1.sponge.janos_regions.BasicRegion" target="de.jano1.sponge.regions_api.Region">
+      <point x="203.9999999999999" y="-236.0" />
+      <point x="1140.0" y="426.0" />
+      <point x="1643.9833333333333" y="426.0" />
+      <point x="-102.66666666666674" y="103.0" />
+    </edge>
+    <edge source="de.jano1.sponge.janos_regions.BasicRegionBuilder_Chunks" target="de.jano1.sponge.janos_regions.BasicRegionShape_Chunks">
+      <point x="-78.0" y="-103.5" />
+      <point x="722.2305555555557" y="948.0" />
+      <point x="449.5000000000001" y="948.0" />
+      <point x="0.0" y="103.5" />
+    </edge>
+    <edge source="de.jano1.sponge.janos_regions.BasicRegionService" target="de.jano1.sponge.regions_api.RegionService">
+      <point x="75.5" y="-93.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+    <edge source="de.jano1.sponge.janos_regions.BasicRegionShape_Chunks" target="de.jano1.sponge.regions_api.RegionShape">
+      <point x="0.0" y="-103.5" />
+      <point x="449.5000000000001" y="426.0" />
+      <point x="524.1416666666668" y="426.0" />
+      <point x="-84.66666666666663" y="47.5" />
+    </edge>
+    <edge source="de.jano1.sponge.janos_regions.BasicRegionBuilder_Chunks" target="de.jano1.sponge.janos_regions.BasicRegion">
+      <point x="26.0" y="-103.5" />
+      <point x="826.2305555555557" y="938.0" />
+      <point x="936.0000000000001" y="938.0" />
+      <point x="0.0" y="236.0" />
+    </edge>
+    <edge source="de.jano1.sponge.janos_regions.BasicRegionBuilder_Chunks" target="de.jano1.sponge.regions_api.RegionFlag">
+      <point x="78.0" y="-103.5" />
+      <point x="878.2305555555557" y="948.0" />
+      <point x="1657.875" y="948.0" />
+      <point x="1657.875" y="416.0" />
+      <point x="1479.666666666667" y="416.0" />
+      <point x="41.66666666666674" y="36.5" />
+    </edge>
+    <edge source="de.jano1.sponge.janos_regions.BasicRegionBuilder_Chunks" target="de.jano1.sponge.regions_api.Region">
+      <point x="130.0" y="-103.5" />
+      <point x="930.2305555555557" y="958.0" />
+      <point x="1746.65" y="958.0" />
+      <point x="0.0" y="103.0" />
+    </edge>
+    <edge source="de.jano1.sponge.regions_api.Region" target="de.jano1.sponge.regions_api.subfaces.RegionParentable">
+      <point x="77.0" y="-103.0" />
+      <point x="0.0" y="70.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4323922734026746" x="1150.5" y="663.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
