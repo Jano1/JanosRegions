@@ -14,6 +14,7 @@ import java.util.Optional;
  */
 public class BasicRegionService implements RegionService{
 
+    private Region root;
     private List<Region> regions;
 
     public BasicRegionService(){
@@ -25,6 +26,11 @@ public class BasicRegionService implements RegionService{
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public void setDefaultRegion(Region region) {
+        this.root = region;
     }
 
     @Override

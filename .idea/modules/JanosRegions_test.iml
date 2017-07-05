@@ -3,6 +3,11 @@
   <component name="FacetManager">
     <facet type="minecraft" name="Minecraft">
       <configuration>
+        <userChosenTypes>
+          <map>
+            <entry key="SPONGE" value="true" />
+          </map>
+        </userChosenTypes>
         <autoDetectTypes>
           <platformType>SPONGE</platformType>
         </autoDetectTypes>
